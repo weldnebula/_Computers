@@ -6,13 +6,15 @@
     background-color: #004558;
 }
 
-/* .nb-logo-font,
-.nb-logo-font:hover {
-    font-family: Yanone Kaffeesatz;
-    font-size: 54px;
-    text-decoration: none;
-    line-height: 42px;
+.nb-logo-font {
+    font-size: 16px;
+    line-height: 9px;
+    font-family: Expletus Sans;
+    font-weight: 700;
+}
 
-    ||*| color: #b8efff |*||
-    object-position: -1px;
-} */
+.nb-title-font {
+    font-size: 42px;
+    color: #ffffff;
+    font-family: Yanone Kaffeesatz;
+}
