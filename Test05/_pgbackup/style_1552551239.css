@@ -1,0 +1,16 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.nb-color-greenblue {
+    background-color: #004558;
+}
+
+.nb-logo-font,
+.nb-logo-font:hover {
+    font-family: Yanone Kaffeesatz;
+    font-size: 5.5vw;
+    text-decoration: none;
+    line-height: 48px;
+    color: #b8efff;
+}

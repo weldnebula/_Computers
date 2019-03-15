@@ -1,0 +1,25 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.nebula-color-blue {
+    background-color: #003848;
+    border-top-color: #282829;
+    border-bottom-color: #282829;
+}
+
+.nebula-logo-font {
+    font-family: Yanone Kaffeesatz;
+    font-size: 48px;
+    text-decoration: none;
+    line-height: 48px;
+    color: #afcfdf;
+}
+
+.nebula-logo-font::hover {
+    font-family: Yanone Kaffeesatz;
+    font-size: 48px;
+    text-decoration: none;
+    line-height: 48px;
+    color: #afcfdf;
+}
