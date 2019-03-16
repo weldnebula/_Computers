@@ -1,0 +1,39 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.nb-color-greenblue {
+    background-color: #004558;
+}
+
+/* .nb-logo-font,
+.nb-logo-font:hover {
+    font-family: Yanone Kaffeesatz;
+    font-size: 54px;
+    text-decoration: none;
+    line-height: 42px;
+
+    ||*| color: #b8efff |*||
+    object-position: -1px;
+} */
+/*
+
+
+    font-family: 'Maven Pro', sans-serif;
+
+    font-family: 'Exo 2', sans-serif;
+
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+    font-family: 'Expletus Sans', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Quattrocento Sans', sans-serif;
+
+    font-family: 'Rosario', sans-serif;
+
+
+*/

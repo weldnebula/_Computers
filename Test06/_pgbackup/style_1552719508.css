@@ -1,0 +1,20 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.nb-color-greenblue {
+    background-color: #004558;
+}
+
+.nb-logo-font {
+    font-size: 16px;
+    line-height: 9px;
+    font-family: Expletus Sans;
+    font-weight: 800;
+}
+
+.nb-title-font {
+    font-size: 42px;
+    color: #ffffff;
+    font-family: Yanone Kaffeesatz;
+}
