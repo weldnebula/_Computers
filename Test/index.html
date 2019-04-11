@@ -14,19 +14,19 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <nav class="navbar navbar-dark fixed-top navbar-expand-lg" style="height: 68px; background-color: #004558; z-index: 15; border-top-color: #3f3f3f;">
+        <nav class="navbar navbar-dark fixed-top navbar-expand-lg" style="height: 68px; background-color: #004558; z-index: 15;">
             <div class="d-inline w-auto container justify-content-start ml-1 ml-lg-n2 ">
-                <p class="pt-1 pt-lg-3"> <img src="media/AllAbout.svg" height="48px" title="All About - home page" class="ml-lg-0 ml-n2"> <a href="index.html" class="text-decoration-none align-text-top ml-2 font-weight-bold" title="All About Computers - main" style="font-size: 32px; font-family: Expletus Sans; color: #ffffff; line-height: 32px;">Computers</a> </p>
+                <p class="pt-1 mt-lg-1 pt-lg-3"> <img src="media/AllAbout.svg" height="48px" title="All About - home page" class="ml-lg-0 ml-n2"> <a href="index.html" class="text-decoration-none align-text-top font-weight-bold text-capitalize ml-2" title="All About Computers - main" style="font-size: 34px; font-family: Expletus Sans; color: #c0c000; line-height: 42px; font-variant: small-caps;">Computers</a> </p>
             </div>
-            <button class="float-right ml-1 ml-sm-1 justify-content-end mb-2 d-lg-none bg-secondary" type="button" data-toggle="collapse" data-target="#navbarToggler51" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 4px;"> 
+            <button class="float-right ml-1 ml-sm-1 justify-content-end d-lg-none bg-secondary mb-2" type="button" data-toggle="collapse" data-target="#navbarToggler51" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 4px;"> 
                 <span class="navbar-toggler-icon"></span> 
             </button>             
-            <div class="collapse navbar-collapse w-auto justify-content-end mt-lg-0 mt-n4" id="navbarToggler51"> 
+            <div class="collapse navbar-collapse w-auto justify-content-end mt-n4 mt-lg-n2 mr-lg-2" id="navbarToggler51"> 
                 <form style="float: right;" class="mt-3"> 
                     <input class="form-control bg-light form-control-sm float-lg-left float-left" type="text" aria-label="Search" style="width: 20vw; border-style: inset;"> 
                     <button class="btn bg-secondary my-2 my-sm-0 text-white border-light btn-sm float-lg-right float-right ml-2" style="border-top-color: #ffffff; border-left-color: #ffffff; border-right-color: #000000; border-bottom-color: #000000; border-style: outset;" type="submit">Search</button>                     
                 </form>                 
-            </div>             
+            </div>
         </nav>
         <div class="container-fluid" style="height: 48px; background-color: #004558; flex-direction: row; box-shadow: 0px 5px 15px 0px #585858; position: fixed; z-index: 10; margin-top: -52px; border-bottom: 3px solid #a1a100;">
             <div class="btn-group">
@@ -45,14 +45,16 @@
                 </div>
             </div>
             <div class="dropdown float-right"> 
-                <button class="btn btn-secondary dropdown-toggle btn-sm mt-1" type="button" id="thisPage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-style: outset; border-top-color: #ffffff; border-left-color: #ffffff;">This Page</button>                 
-                <div class="dropdown-menu" aria-labelledby="thisPage" style=" box-shadow: 0px 5px 20px 0px #585858;"> 
-                    <a class="dropdown-item" href="#Influences">Industry Influences</a> 
+                <button class="btn btn-secondary dropdown-toggle btn-sm mt-1 mr-lg-2" type="button" id="ThisPage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-style: outset; border-top-color: #ffffff; border-left-color: #ffffff;">This Page</button>
+                <div class="dropdown-menu" aria-labelledby="ThisPage" style=" box-shadow: 0px 5px 20px 0px #585858;"> 
+                    <a class="dropdown-item" href="#Influences">Industry Influences</a>
                     <a class="dropdown-item" href="#WhatisaComputer">What is a Computer?</a> 
+                    <a class="dropdown-item ml-2" href="#Stuff-Hardware">Parts &mdash; Hardware</a>
+                    <a class="dropdown-item ml-2	" href="#Stuff-Software">Parts &mdash; Software</a> 
                 </div>                 
             </div>
         </div>
-        <div style="z-index: 5; margin-top: 120px; border-top-color: #262626;" class="container-fluid pl-lg-5 pr-lg-5">
+        <div style="z-index: 5; margin-top: 120px; border-top-color: #262626; margin-bottom: 80px;" class="container-fluid pl-lg-5 pr-lg-5 ">
             <p style="padding-top: 12px;">Welcome to <b>All About Computers</b>! This is a resource for normal people to learn how computer technology works. All About Computers does not use cookies, and has no advertising.</p>
             <div class="d-flex mb-3">
                 <button type="button" class="btn btn-sm btn-secondary mb-auto" data-toggle="collapse" data-target="#Note_knowledge" style="border-style: outset; border-top-color: #b5b5b5; border-bottom-color: #000000; border-left-color: #b5b5b5; border-right-color: #000000; margin-right: 6px;">NOTE:</button>
@@ -65,9 +67,8 @@
                         <h3 style="font-family: Expletus Sans;">Industry Influences</h3>
                     </div>
                     <div>
-                        <h4 style="padding-top: 12px;">
-                            How we got here from there </h4>
-                        <p>This is important to understand: Computer technology has been built up over the years as a product of two primary influences:</p>
+                        <h4 style="padding-top: 12px;">How we got here</h4>
+                        <p>Computer technology has been built up over the years as a product of two primary influences:</p>
                         <ul> 
                             <li>
                                 <span><b>The nature</b> of</span>
@@ -79,9 +80,9 @@
                                 <b>For example</b>, one key choice was the decision to use the binary number system as the basis for computer logic. (And no, you don't have to understand binary numbers to use a computer!)
                             </li>                             
                         </ul>                         
-                        <p>These choices could have been very different, and still produced successful devices that we would be using instead of the computers we have now. But as each successive design decision was applied to the technology (usually for good reason, sometimes not), the computer industry was directed more and more toward producing the technology that we have today.</p>
+                        <p>Those choices could have been very different, and still produced successful devices that we would be using instead of the computers we have now. But as each successive design decision was applied to the technology (usually for good reason, sometimes not), the computer industry was directed more and more toward producing the technology that we have today.</p>
                         <h4>What this means to you</h4>
-                        <p>Computers weren't discovered, they were created. The design decisions that led us here were made by many different people with many different goals. If any aspect of this technology doesn't seem obvious, it's not you. It's the technology. So if you see something on this website that doesn't make sense to you, it probably needs a better explanation.</p>
+                        <p>Computers weren't discovered, they were created. The design decisions that led us here were made by many different people with many different goals. If any aspect of this technology doesn't seem obvious, it's not you. It's the technology. So if you see something on this website that doesn't make sense to you, it might need a better explanation.</p>
                     </div>
                 </div>
                 <div class="row d-block">
@@ -94,126 +95,95 @@
                             A comparison </h4>
                         <p>Consider a typical tool like a hammer. Hammers are designed with only one purpose: to hit things. (Some hammers can also pry things apart.)</p>
                         <p>A computer, on the other hand, is the first tool in history that’s designed to do an unlimited number of things with information. (And it can also use information to control actual devices and tools, including hammers.)</p>
-                    </div>
-                </div>
-                <div class="row d-block">
-                    <div style="background-color: #484848; border-bottom: 3px solid #a1a100; box-shadow: 0px 5px 15px 0px #585858;" class="text-light pl-3 pt-2 pb-0">
-                        <a name="Breakingitdown" class="pushdown"></a>
-                        <h4 style="font-family: Expletus Sans;">Breaking it Down</h4>
-                    </div>
-                    <p style="padding-top: 12px;">Every computer has two main parts:</p>
-                    <h5>Stuff you can touch — <i>Hardware</i></h5>
-                    <p>The minimum set of hardware components necessary to
-create a usable computer:</p>
-                    <ul>
-                        <li>Core components (almost always built in):
-                            <br>
-                        </li>
-                        <ul>
-                            <li>A 
-                                <i><b>central processing unit</b></i> (CPU) to do the computing work (in the form of a 
-                                <i>computer chip</i>).
-                                <br>
-                                <img src="media/Processor_CPU.png" width="100" alt="Computer CPU image" class="ml-3">
-                                <figcaption class="font-italic">A CPU chip (about 2 inches across)</figcaption>
-                                <br>
-                            </li>
-                            <li>
-                                <i><b>Temporary memory</b></i> (RAM) to hold the data and instructions that are currently being used. RAM chips are designed for high speed access by the CPU, but their contents disappear when the computer shuts down.
-                                <br>
-                                <img src="media/MemoryRam.jpg" width="100" class="ml-3">
-                                <figcaption class="font-italic">A memory module with two RAM chips (known as a SIMM)</figcaption>
-                                <br>
-                            </li>
-                            <li>A 
-                                <i><b>read-only memory chip</b></i>
-                                (ROM) to hold the computer’s basic startup and operating instructions. The ROM chip retains its contents when the computer is off, but it's sluggish compared to RAM.
-                                <br>
-                                <img src="media/664px-AMIBIOS.jpg" width="80 px" class="ml-3">
-                                <figcaption class="font-italic">A ROM chip</figcaption>
-                                <br>
-                            </li>
-                            <li>
-                                <i><b>Electronic circuitry</b></i> to enable the other components to communicate with each other.
-                                <br>
-                                <img src="media/1200px-Acer_E360_Socket_939_motherboard_by_Foxconn.svg.png" style="cursor:pointer" width="200 px" data-toggle="modal" data-target="#motherboard" class="ml-3">
-                                <figcaption class="font-italic">A  motherboard &mdash; the main circuitry for a computer</figcaption>
-                                <div class="modal pg-show-modal" id="motherboard" tabindex="-1" aria-hidden="true"> 
-                                    <!--  modal-dialog-centered modal-dialog-scrollable -->
-                                    <div class="modal-lg mw-100"> 
-                                        <!-- modal-dialog  -->
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                A typical desktop motherboard &nbsp; (Press [Esc] key to close) 
-                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img src="media/1200px-Acer_E360_Socket_939_motherboard_by_Foxconn.svg.png" alt="Motherboard image" class="bg-white" width="100%">
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div class="container ml-n3 ">
+                            <a name="Breakingitdown" class="pushdown"></a>
+                            <h4>Breaking it down</h4>
+                            <p>Every computer has three types of components:</p>
+                            <div class="row mr-n4 ml-1">
+                                <div style="border: 1px solid #a1a100; background-color: #eeeeee;" class="col-md-4">
+                                    <h5 class="font-weight-bold" style="line-height: 40px;">Hardware</h5>
+                                    <p>(Stuff you can touch)</p>
+                                    <p>Here's the minimum set of hardware components necessary to create a usable computer:</p>
+                                    <ul> 
+                                        <li>A 
+                                            <b>central processing unit</b> (CPU) to do the computing work.
+                                        </li>                                         
+                                        <li>
+                                            <b>Temporary memory chips</b> (RAM) to hold the data and instructions that are currently being used by the CPU.
+                                        </li>                                         
+                                        <li>A 
+                                            <b>read-only memory chip</b> (ROM) to hold the computer’s basic startup and operating instructions.
+                                        </li>                                         
+                                        <li>A 
+                                            <b>storage device</b> to hold programs and documents.
+                                        </li>                                         
+                                        <li>An 
+                                            <b>input device</b> to tell the computer what data to process and how to process it.
+                                        </li>                                         
+                                        <li>An 
+                                            <b>output device</b> to show you the results of processing,
+                                        </li>                                         
+                                        <li>A 
+                                            <b>communication device</b> to connect the computer to the rest of the world.
+                                        </li>                                         
+                                        <li>
+                                            <b>Electronic circuitry</b> to enable the components to communicate with each other. This includes 
+                                            <i>ports</i> for connecting external devices and power (such as 
+                                            <i>USB</i> ports).
+                                        </li>                                         
+                                    </ul>                                     
                                 </div>
-                                <br>
-                            </li>
-                        </ul>
-                        <li>A 
-                            <i><b>storage device</b></i> to hold programs and documents (like a 
-                            <i>hard drive</i>; built into most computers)
-                        </li>
-                        <li>An 
-                            <i><b>input device</b></i> to tell the computer what data to process and how to process it (maybe a 
-                            <i>keyboard</i>, a 
-                            <i>mouse</i>, or a 
-                            <i>touchscreen</i>; built into some types of computers)
-                        </li>
-                        <li>An 
-                            <i><b>output device</b></i> to convey the results of processing to the world (like a 
-                            <i>display monitor</i> or a 
-                            <i>printer</i>; built into some types of computers)
-                        </li>
-                        <li>A 
-                            <i><b>communication device</b></i> to connect the computer to the rest of the world (such as 
-                            <i>Wi-Fi</i>, 
-                            <i>DSL</i>, or 
-                            <i>cable</i>; built into some types of computers)
-                        </li>                         
-                    </ul>
-                    <h5>Stuff you can't touch — <i>Software</i></h5>
-                    <p>The minimum set of software components necessary to create a usable computer is:</p>
-                    <ul> 
-                        <li>The 
-                            <i><b>startup instructions</b></i> to tell the computer how to control its minimum required hardware (best known as the 
-                            <i>basic input/output system</i> (BIOS)). The BIOS is stored on a 
-                            <i>read-only memory chip</i> (ROM).
-                        </li>                         
-                        <li>The&nbsp;
-                            <i><b>operating system</b></i>, which:
-                            <ul> 
-                                <li>Uses the BIOS to control the basic hardware</li>                                 
-                                <li>Adds the ability to control additional types of hardware</li>                                 
-                                <li>Manages storage space and memory usage</li>                                 
-                                <li>Facilitates the installation, removal, and user interaction with programs</li>                                 
-                                <li>Manages incoming and outgoing information and signals</li>                                 
-                                <li>Provides an interface for users to interact with the computer</li>                                 
-                            </ul>
-                            The best known operating systems are 
-                            <i>Microsoft Windows</i>, 
-                            <i>Apple iOS</i>, 
-                            <i>Google Android</i>, and 
-                            <i>Linux</i>. An operating system is responsible for the basic look and behavior of a computer.
-                        </li>                         
-                        <li>
-                            <i><b>Programs</b></i> (also called 
-                            <i>applications</i> or 
-                            <i>apps</i>) that are dedicated to specific tasks (such as emailing, browsing the web, drawing, playing music or video, managing databases, planning projects, analyzing data, and everything else you can do with a computer.
-                        </li>                         
-                        <li>
-                            <b><i>Data</i></b> (information), which you manipulate using programs. Types of data include documents, spreadsheets, photographs, web pages, database contents, and millions of other things. (Technically the word “data” is plural, but we’re not going to fuss about that.)
-                        </li>                         
-                    </ul>
+                                <div class="col-md-4" style="border: 1px solid #a1a100; background-color: #eeeeee;">
+                                    <h5 class="font-weight-bold" style="line-height: 40px;">Software</h5> 
+                                    <p>(Information)</p>
+                                    <p>Here's the minimum set of software components necessary to create a usable computer:</p> 
+                                    <ul> 
+                                        <li>The 
+                                            <b>startup instructions</b> to tell the computer how to control its minimum required hardware (best known as the 
+                                            <i>basic input/output system</i> (BIOS)).&nbsp;
+                                        </li>                                         
+                                        <li>The&nbsp;
+                                            <b>operating system</b>, which:
+                                            <ul> 
+                                                <li>Uses the BIOS to control the basic hardware</li>                                                 
+                                                <li>Adds the ability to control additional types of hardware</li>                                                 
+                                                <li>Manages storage space and memory usage</li>                                                 
+                                                <li>Facilitates the installation, removal, and user interaction with programs</li>                                                 
+                                                <li>Manages incoming and outgoing information and signals</li>                                                 
+                                                <li>Provides an interface for users to interact with the computer</li>
+                                            </ul>
+                                        </li>                                         
+                                        <li>
+                                            <b>Programs</b> (also called 
+                                            <i>applications</i> or 
+                                            <i>apps</i>) that are dedicated to specific tasks (such as emailing, browsing the web, drawing, playing music or video, managing databases, planning projects, analyzing data, and everything else you can do with a computer.
+                                        </li>                                         
+                                        <li>
+                                            <b>Data</b>
+                                            (content), which you manipulate using programs. Types of data include documents, spreadsheets, photographs, web pages, database contents, and millions of other things. (Technically the word “data” is plural, but we’re not going to fuss about that.)
+                                        </li>                                         
+                                    </ul>
+                                </div>
+                                <div class="col-md-4" style="border: 1px solid #a1a100; background-color: #eeeeee;">
+                                    <h5 class="font-weight-bold" style="line-height: 40px;">Rules and conventions</h5> 
+                                    <p>(Ways of doing things)</p>
+                                    <ul> 
+                                        <li>Programming languages</li>                                         
+                                        <li>Communication protocols</li>                                         
+                                        <li>Data standards</li>                                         
+                                        <li>File formats</li>                                         
+                                        <li>Compression algorithms</li>                                         
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <nav class="navbar fixed-bottom navbar-dark justify-content-center" style="background-color: #004558; border-bottom: 3px solid #a1a100;">
+            <p style="font-family: Expletus Sans; font-size: 24px;" class="text-white mb-n1">(footer)</p>
+        </nav>
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
