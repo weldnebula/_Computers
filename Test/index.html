@@ -39,6 +39,7 @@
                         <h2 class="dropdown-header display-1"><b>SUBJECT</b></h2>
                         <a class="dropdown-item" href="hardware.html">Hardware</a> 
                         <a class="dropdown-item" href="#">Software</a> 
+                        <a class="dropdown-item" href="#">Rules and Conventions</a> 
                         <a class="dropdown-item" href="#">Computer Technology</a> 
                         <a class="dropdown-item" href="#">Computer History</a> 
                     </div>                     
@@ -47,10 +48,10 @@
             <div class="dropdown float-right"> 
                 <button class="btn btn-secondary dropdown-toggle btn-sm mt-1 mr-lg-2" type="button" id="ThisPage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-style: outset; border-top-color: #ffffff; border-left-color: #ffffff;">This Page</button>
                 <div class="dropdown-menu" aria-labelledby="ThisPage" style=" box-shadow: 0px 5px 20px 0px #585858;"> 
+                    <a class="dropdown-item" href="#">Top</a>
                     <a class="dropdown-item" href="#Influences">Industry Influences</a>
                     <a class="dropdown-item" href="#WhatisaComputer">What is a Computer?</a> 
-                    <a class="dropdown-item ml-2" href="#Stuff-Hardware">Parts &mdash; Hardware</a>
-                    <a class="dropdown-item ml-2	" href="#Stuff-Software">Parts &mdash; Software</a> 
+                    <a class="dropdown-item ml-2" href="#Components">Components</a>
                 </div>                 
             </div>
         </div>
@@ -58,7 +59,7 @@
             <p style="padding-top: 12px;">Welcome to <b>All About Computers</b>! This is a resource for normal people to learn how computer technology works. All About Computers does not use cookies, and has no advertising.</p>
             <div class="d-flex mb-3">
                 <button type="button" class="btn btn-sm btn-secondary mb-auto" data-toggle="collapse" data-target="#Note_knowledge" style="border-style: outset; border-top-color: #b5b5b5; border-bottom-color: #000000; border-left-color: #b5b5b5; border-right-color: #000000; margin-right: 6px;">NOTE:</button>
-                <div class="alert alert-secondary collapse mb-auto" id="Note_knowledge" style="border: 1px solid #a1a100;">In explaining computer technology on this site, we sometimes skip over historical and scientific details that a typical computer science course would include. Instead, we stick to the essential ideas that will help you get comfortable with computers. and leave it to you to investigate those underlying subjects in more detail if you want to.&nbsp;</div>
+                <div class="alert alert-secondary collapse mb-auto" id="Note_knowledge" style="border: 1px solid #a1a100; background-color: #eeeeee;">In explaining computer technology on this site, we sometimes skip over historical and scientific details that a typical computer science course would include. Instead, we stick to the essential knowledge that will demystify computers for you, and leave it to you to investigate those underlying subjects in more detail if you want to.&nbsp;</div>
             </div>
             <div class="container-fluid">
                 <div class="row d-block">
@@ -76,8 +77,10 @@
                             </li>                             
                             <li class="mt-1">
                                 <b>The choices</b> that key industry players have made in deciding how to take advantage of the behavior of logic, mathematics, and the physical world. 
-                                <br>
-                                <b>For example</b>, one key choice was the decision to use the binary number system as the basis for computer logic. (And no, you don't have to understand binary numbers to use a computer!)
+                                <div class="d-flex mt-1">
+                                    <button type="button" class="btn btn-sm btn-secondary mb-auto" data-toggle="collapse" data-target="#Example_choice" style="border-style: outset; border-top-color: #b5b5b5; border-bottom-color: #000000; border-left-color: #b5b5b5; border-right-color: #000000; margin-right: 6px;">EXAMPLE:</button>
+                                    <div class="alert alert-secondary collapse mb-auto" id="Example_choice" style="border: 1px solid #a1a100; background-color: #eeeeee;">One key choice was the decision to use the binary number system as the basis for computer logic. (And no, you don't have to understand binary numbers to use a computer!)&nbsp;</div>
+                                </div>
                             </li>                             
                         </ul>                         
                         <p>Those choices could have been very different, and still produced successful devices that we would be using instead of the computers we have now. But as each successive design decision was applied to the technology (usually for good reason, sometimes not), the computer industry was directed more and more toward producing the technology that we have today.</p>
@@ -96,20 +99,20 @@
                         <p>Consider a typical tool like a hammer. Hammers are designed with only one purpose: to hit things. (Some hammers can also pry things apart.)</p>
                         <p>A computer, on the other hand, is the first tool in history that’s designed to do an unlimited number of things with information. (And it can also use information to control actual devices and tools, including hammers.)</p>
                         <div class="container ml-n3 ">
-                            <a name="Breakingitdown" class="pushdown"></a>
+                            <a name="Components" class="pushdown"></a>
                             <h4>Breaking it down</h4>
-                            <p>Every computer has three types of components:</p>
+                            <p>Every computer has three categories of components:</p>
                             <div class="row mr-n4 ml-1">
                                 <div style="border: 1px solid #a1a100; background-color: #eeeeee;" class="col-md-4">
                                     <h5 class="font-weight-bold" style="line-height: 40px;">Hardware</h5>
-                                    <p>(Stuff you can touch)</p>
+                                    <p>(Things you can touch)</p>
                                     <p>Here's the minimum set of hardware components necessary to create a usable computer:</p>
                                     <ul> 
                                         <li>A 
                                             <b>central processing unit</b> (CPU) to do the computing work.
                                         </li>                                         
                                         <li>
-                                            <b>Temporary memory chips</b> (RAM) to hold the data and instructions that are currently being used by the CPU.
+                                            <b>High speed memory chips</b> (RAM) to hold the data and instructions that are currently being used by the CPU.
                                         </li>                                         
                                         <li>A 
                                             <b>read-only memory chip</b> (ROM) to hold the computer’s basic startup and operating instructions.
@@ -135,7 +138,7 @@
                                 </div>
                                 <div class="col-md-4" style="border: 1px solid #a1a100; background-color: #eeeeee;">
                                     <h5 class="font-weight-bold" style="line-height: 40px;">Software</h5> 
-                                    <p>(Information)</p>
+                                    <p>(Information and instructions)</p>
                                     <p>Here's the minimum set of software components necessary to create a usable computer:</p> 
                                     <ul> 
                                         <li>The 
@@ -143,7 +146,7 @@
                                             <i>basic input/output system</i> (BIOS)).&nbsp;
                                         </li>                                         
                                         <li>The&nbsp;
-                                            <b>operating system</b>, which:
+                                            <b>operating system</b>, a set of instructions that:
                                             <ul> 
                                                 <li>Uses the BIOS to control the basic hardware</li>                                                 
                                                 <li>Adds the ability to control additional types of hardware</li>                                                 
@@ -154,9 +157,9 @@
                                             </ul>
                                         </li>                                         
                                         <li>
-                                            <b>Programs</b> (also called 
+                                            <b>Programs</b> (sets of instructions that are also called 
                                             <i>applications</i> or 
-                                            <i>apps</i>) that are dedicated to specific tasks (such as emailing, browsing the web, drawing, playing music or video, managing databases, planning projects, analyzing data, and everything else you can do with a computer.
+                                            <i>apps</i>) dedicated to specific tasks (such as emailing, browsing the web, drawing, playing music or video, managing databases, planning projects, analyzing data, and everything else you can do with a computer.
                                         </li>                                         
                                         <li>
                                             <b>Data</b>
@@ -167,22 +170,39 @@
                                 <div class="col-md-4" style="border: 1px solid #a1a100; background-color: #eeeeee;">
                                     <h5 class="font-weight-bold" style="line-height: 40px;">Rules and conventions</h5> 
                                     <p>(Ways of doing things)</p>
+                                    <p>Because a computer's hardware and software components can be produced by different manufacturers, the components must use agreed-upon rules and conventions to communicate with each other and with other systems.</p>
+                                    <p>A rule is a way of doing something that's required by an authority (like a speed limit).</p>
+                                    <p>A convention is a way of doing something that has become popular among practitioners (like the way people say "How're you doing?" when they meet.</p>
+                                    <p>This category includes standards, protocols, guidelines, languages, algorithms, patterns, regulations, and formats,&nbsp;</p>
+                                    <p>Rules and conventions include the following:</p>
                                     <ul> 
-                                        <li>Programming languages</li>                                         
-                                        <li>Communication protocols</li>                                         
-                                        <li>Data standards</li>                                         
-                                        <li>File formats</li>                                         
-                                        <li>Compression algorithms</li>                                         
+                                        <li>
+                                            <b>Programming languages</b>
+                                        </li>                                         
+                                        <li>
+                                            <b>Communication protocols</b>
+                                        </li>                                         
+                                        <li>
+                                            <b>Data standards</b>
+                                        </li>                                         
+                                        <li>
+                                            <b>File formats</b>
+                                        </li>                                         
+                                        <li>
+                                            <b>Compression algorithms</b>
+                                        </li>                                         
                                     </ul>
+                                    <p>You'll find various rules and conventions cropping up in any discussion of computer activity.&nbsp;</p>
                                 </div>
                             </div>
+                            <p class="mt-3">These categories aren't always distinct from each other. Hardware often has some software built into its electronics; software frequently has to comply with rules and conventions; and hardware must comply with certain rules and conventions as well.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <nav class="navbar fixed-bottom navbar-dark justify-content-center" style="background-color: #004558; border-bottom: 3px solid #a1a100;">
-            <p style="font-family: Expletus Sans; font-size: 24px;" class="text-white mb-n1">(footer)</p>
+            <p style="font-family: Expletus Sans; font-size: 16	px; color: #c0c000;" class="mb-n1">Home page</p>
         </nav>
         <!-- Bootstrap core JavaScript
     ================================================== -->
